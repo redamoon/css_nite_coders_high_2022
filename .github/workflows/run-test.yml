@@ -1,0 +1,21 @@
+name: CSS nite Coder's High CI
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+      - name: Npm install
+        run: |
+          npm install -g npm@8
+          npm ci
+      - name: Running this format
+        run: npm run format
+      - name: Running this Lint
+        run: npm run lint
