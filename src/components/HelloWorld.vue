@@ -2,6 +2,9 @@
 defineProps<{
   msg: string
 }>()
+
+console.log('Warningでpushする')
+const hoge = '利用していない変数'
 </script>
 
 <template>
