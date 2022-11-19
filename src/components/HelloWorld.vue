@@ -1,4 +1,5 @@
 <script setup lang="ts">
+var hogehoge = 'varを使う'
 defineProps<{
   msg: string
 }>()
