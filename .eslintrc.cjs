@@ -11,6 +11,8 @@ module.exports = {
   ],
   rules: {
     'no-console': 1,
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["error"]
   },
   overrides: [
     {
