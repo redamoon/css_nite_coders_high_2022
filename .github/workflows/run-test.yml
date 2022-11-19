@@ -18,4 +18,4 @@ jobs:
       - name: Running this format
         run: npm run format
       - name: Running this Lint
-        run: npm run lint
+        run: npm run lint:actions
