@@ -9,11 +9,7 @@ module.exports = {
     '@vue/eslint-config-typescript',
     '@vue/eslint-config-prettier',
   ],
-  rules: {
-    'no-console': 1,
-    'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': ['error'],
-  },
+  rules: {},
   overrides: [
     {
       files: ['cypress/e2e/**/*.{cy,spec}.{js,ts,jsx,tsx}'],
