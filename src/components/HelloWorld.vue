@@ -2,6 +2,8 @@
 defineProps<{
   msg: string
 }>()
+const hoge = '利用していない変数'
+console.log('デバッグコード')
 </script>
 
 <template>
